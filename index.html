@@ -16,8 +16,10 @@
                     <search class="text-gray-500 font-normal p-5 rounded-lg border-solid border-gray-300 border-1">Password</search>
                 </div>
                     <div class="flex flex-row gap-4 items-center mt-5">
-                        <button class="border-1 border-black w-5 h-5 rounded-sm"></button>
-                        <p>I agree with <span class="font-semibold">Terms & Conditions</span></p>
+                        <div class="mt-4 flex items-center">
+                            <input type="checkbox" id="terms" class="w-4 h-4 mr-2">
+                            <label for="terms" class="text-sm text-gray-700">I agree to the <a href="#" class="text-zinc-800 font-bold">Terms & Conditions</a></label>
+                          </div>
                     </div>
                     <div class="flex justify-center mt-8">
                         <a href="" class="bg-zinc-800 rounded-lg text-white font-semibold pb-5 pt-5 pr-45 pl-45">Join Rareblocks</a>
@@ -88,15 +90,25 @@
         </div>
         <div class="flex justify-center items-center flex-col">
             <div class="flex justify-center w-157 flex-col items-center">
-                <p class="text-5xl font-semibold mt-30">Numbers tell our story</p>
-                <p class="text-zinc-600 mt-10">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                <p class="text-5xl font-bold mt-30">Numbers tell our story</p>
+                <p class="text-zinc-600 mt-10 text-lg">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
                 <p class="text-zinc-600">Velit officia consequat duis.</p>
             </div>
-            <div>
-                <div class="">
-                    <p class="text-6xl font-bold">6+</p>
-                    <p class="font-semibold">Years in business</p>
+            <div class="gap-35 flex flex-row mb-30">
+                <div class="flex items-center flex-col mt-20">
+                    <p class="text-7xl font-bold bg-gradient-to-r from-pink-600 to-blue-800 inline-block text-transparent bg-clip-text">6+</p>
+                    <p class="font-semibold text-lg mt-3">Years in business</p>
                     <p class="text-zinc-500">Creating the successful path</p>
+                </div>
+                <div class="flex items-center flex-col mt-20">
+                    <p class="text-7xl font-bold bg-gradient-to-r from-pink-600 to-blue-800 inline-block text-transparent bg-clip-text">4821</p>
+                    <p class="font-semibold text-lg mt-3">Projects delivered</p>
+                    <p class="text-zinc-500">In last 6 years</p>
+                </div>
+                <div class="flex items-center flex-col mt-20">
+                    <p class="text-7xl font-bold bg-gradient-to-r from-pink-600 to-blue-800 inline-block text-transparent bg-clip-text">37+</p>
+                    <p class="font-semibold text-lg mt-3">Team members</p>
+                    <p class="text-zinc-500">Working for your success</p>
                 </div>
             </div>
         </div>
